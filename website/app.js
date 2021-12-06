@@ -3,7 +3,7 @@ const API_KEY = "7493088841fd29c74419235a2fac14a3";
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth() + "." + d.getDate() + "." + d.getFullYear();
+let newDate = d.getMonth() +1 +'-'+d.getDate()+'-'+d.getFullYear();
 
 // Function: Getting use response on the feeling
 const getUserResponse = () => {
