@@ -15,7 +15,7 @@ const getUserResponse = () => {
 // chaining another async function to POST data to the server
 // chaining another async function to update returned data from server on the UI
 const getWeatherData = async (zipcode) => {
-  const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&appid=${API_KEY}`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&appid=${API_KEY}&&units=imperial`;
   const data = await fetch(url);
 
   const weatherData = await data.json();
