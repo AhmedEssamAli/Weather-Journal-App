@@ -1,10 +1,40 @@
-# Weather-Journal App Project
+# Weather-Journal App 
 
-## Overview
-This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI. 
+## Features
 
-## Instructions
-This will require modifying the `server.js` file and the `website/app.js` file. You can see `index.html` for element references, and once you are finished with the project steps, you can use `style.css` to style your application to customized perfection.
+- Async weather data retrival from 'OpenWeatherMapAPI'
+- Fancy UI
+- Server side functionality
 
-## Extras
-If you are interested in testing your code as you go, you can use `tests.js` as a template for writing and running some basic tests for your code.
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/shawkyelshazly1/Weather-Journal-App.git
+```
+
+Go to the project directory
+
+```bash
+  cd Weather-Journal-App
+```
+
+Install required dependancies
+
+```bash
+  npm instal
+```
+
+Open the project in browser
+(http://localhost:8000/)
+
+
+
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
