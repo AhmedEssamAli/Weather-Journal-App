@@ -1,9 +1,9 @@
 /* Global Variables */
-const API_KEY = "7493088841fd29c74419235a2fac14a3";
+const API_KEY = "da310a6f12712e9dc0ad9613b7202e4a";
 
 // Create a new date instance dynamically with JS
 let d = new Date();
-let newDate = d.getMonth() +1 +'-'+d.getDate()+'-'+d.getFullYear();
+let newDate = d.getMonth() + 1 + "-" + d.getDate() + "-" + d.getFullYear();
 
 // Function: Getting use response on the feeling
 const getUserResponse = () => {
@@ -15,7 +15,7 @@ const getUserResponse = () => {
 // chaining another async function to POST data to the server
 // chaining another async function to update returned data from server on the UI
 const getWeatherData = async (zipcode) => {
-  const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&appid=${API_KEY}&&units=imperial`;
+  const url = `https://api.openweathermap.org/data/2.5/weather?zip=${zipcode}&appid=${API_KEY}&units=imperial`;
   const data = await fetch(url);
 
   const weatherData = await data.json();

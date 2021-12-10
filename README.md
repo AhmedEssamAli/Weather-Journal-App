@@ -1,12 +1,10 @@
-# Weather-Journal App 
+# Weather-Journal App
 
 ## Features
 
 - Async weather data retrival from 'OpenWeatherMapAPI'
 - Fancy UI
 - Server side functionality
-
-
 
 ## Run Locally
 
@@ -27,13 +25,6 @@ Install required dependancies
 ```bash
   npm instal
 ```
-
-Open the project in browser
-(http://localhost:8000/)
-
-
-
-
 
 ## License
 
